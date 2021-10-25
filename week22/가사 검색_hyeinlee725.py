@@ -6,7 +6,7 @@
 *Trie : 여러가지 함수 필요 - head를 빈노드로 설정, insert 함수(tree 생성 함수),
          search 함수(문자열 존재 여부 return하는 함수 - data 존재시 True, 아니면 False),
          starts_with 함수(단어를 찾고 배열로 return 하는 함수 - data 존재하는 것만 저장)
-         -> 해당 문제는 숫자로 결과를 나타내무로 search와 starts_with 함수를 합쳐서 사용
+         -> 해당 문제는 숫자로 결과를 나타내므로 search와 starts_with 함수를 합쳐서 사용
 '''
 # defaultdict : 사전 기본 값으로 dict를 생성할 때 기본적으로 Trie형태로 생성하기 위해 호출
 from collections import defaultdict
