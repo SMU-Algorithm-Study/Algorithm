@@ -1,9 +1,8 @@
 #소수 판별 함수
 def is_prime(num):
-    for i in range(2, num):
+    for i in range(2, int(num*0.5)+1):
         if num % i == 0:
             return False
-
     return True
 
 #숫자 3개 선택한 합이 소수인지 판별하는 함수
