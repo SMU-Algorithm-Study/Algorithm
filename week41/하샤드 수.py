@@ -1,5 +1,4 @@
 def solution(x):
-    answer = True
     num_sum = 0
 
     #자리수별로 나누고 더하기
