@@ -5,6 +5,7 @@ def solution(a, b):
 
     if a == 1:
         answer = days[(b - 2) % 7 - 1] #일주일로 나눈 후 나머지로 요일 추측
+
     else:
         sum = 0
         for i in range(a - 1):

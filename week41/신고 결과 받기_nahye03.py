@@ -30,12 +30,6 @@ def solution(id_list, report, k):
 
     return answer
 
-
-id_list = ["con", "ryan"]
-report = ["ryan con", "ryan con", "ryan con", "ryan con"]
-k=3
-solution(id_list, report, k)
-
 #다른 방법
 # def solution(id_list, report, k):
 #     answer = [0]*len(id_list)

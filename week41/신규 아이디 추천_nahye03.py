@@ -33,3 +33,5 @@ def solution(new_id):
         while len(a)<3:
             a = a+a[-1]
     print(a)
+
+    return a
